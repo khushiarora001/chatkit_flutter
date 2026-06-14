@@ -1,0 +1,16 @@
+name: chatkit_example
+description: Example app for chatkit_flutter SDK.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chatkit_flutter:
+    path: ../
+
+flutter:
+  uses-material-design: true
