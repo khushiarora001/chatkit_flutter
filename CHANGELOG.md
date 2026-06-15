@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Updated setup instructions with ChatKit Admin link
+
 ## 1.0.1
 
 * Updated example and docs to use real backend URL
