@@ -19,8 +19,7 @@ flutter pub get
 
 ## Setup
 
-1. Sign up at [ChatKit Dashboard](https://dashboard-snowy-eight-95.vercel.app/signup)
-2. Create a new client — you'll get a unique `ck_live_xxx` API key and `baseUrl`
+Connect with [ChatKit Admin](https://dashboard-snowy-eight-95.vercel.app) to get your `apiKey` and `baseUrl`.
 
 ---
 
