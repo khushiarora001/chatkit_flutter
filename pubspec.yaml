@@ -1,8 +1,8 @@
 name: chatkit_flutter
 description: >-
   A white-label AI chat SDK for Flutter. Embed a fully functional AI chat
-  widget powered by Claude AI and your own knowledge base — in 3 lines of code.
-version: 1.0.0
+  widget with custom theming, typing indicators, and message history — in 3 lines of code.
+version: 1.0.1
 homepage: https://github.com/khushiarora001/chatkit_flutter
 repository: https://github.com/khushiarora001/chatkit_flutter
 issue_tracker: https://github.com/khushiarora001/chatkit_flutter/issues
@@ -25,4 +25,3 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
-  library: true

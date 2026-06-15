@@ -1,3 +1,7 @@
+## 1.0.1
+
+* Updated example and docs to use real backend URL
+
 ## 1.0.0
 
 * Initial release

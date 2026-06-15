@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
   // ─── Replace with your real keys from the ChatKit dashboard ───────────────
   static const _config = ChatKitConfig(
     apiKey: 'ck_live_YOUR_API_KEY',
-    baseUrl: 'https://your-backend.railway.app',
+    baseUrl: 'https://chatkit-backend-bihw.onrender.com',
   );
 
   static const _theme = ChatKitTheme(
