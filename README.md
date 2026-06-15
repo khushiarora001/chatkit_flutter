@@ -19,7 +19,8 @@ flutter pub get
 
 ## Setup
 
-Get your API key from the [ChatKit dashboard](https://chatkit.io). Each client you create gets a unique `ck_live_xxx` key.
+1. Sign up at [ChatKit Dashboard](https://dashboard-snowy-eight-95.vercel.app/signup)
+2. Create a new client — you'll get a unique `ck_live_xxx` API key and `baseUrl`
 
 ---
 
@@ -36,7 +37,7 @@ Navigator.push(
     builder: (_) => ChatKitWidget(
       config: ChatKitConfig(
         apiKey: 'ck_live_YOUR_KEY',
-        baseUrl: 'YOUR_BACKEND_URL',
+        baseUrl: 'YOUR_BASE_URL',
       ),
       showBackButton: true,
     ),
@@ -58,7 +59,7 @@ showModalBottomSheet(
       child: ChatKitWidget(
         config: ChatKitConfig(
           apiKey: 'ck_live_YOUR_KEY',
-          baseUrl: 'YOUR_BACKEND_URL',
+          baseUrl: 'YOUR_BASE_URL',
         ),
         showBackButton: true,
         onClose: () => Navigator.pop(context),
@@ -77,7 +78,7 @@ Stack(
     ChatKitFAB(
       config: ChatKitConfig(
         apiKey: 'ck_live_YOUR_KEY',
-        baseUrl: 'YOUR_BACKEND_URL',
+        baseUrl: 'YOUR_BASE_URL',
       ),
     ),
   ],
@@ -94,7 +95,7 @@ Everything is customizable. Defaults work out of the box.
 ChatKitWidget(
   config: ChatKitConfig(
     apiKey: 'ck_live_YOUR_KEY',
-    baseUrl: 'YOUR_BACKEND_URL',
+    baseUrl: 'YOUR_BASE_URL',
   ),
   theme: ChatKitTheme(
     primaryColor: Color(0xFF1E3A5F),
