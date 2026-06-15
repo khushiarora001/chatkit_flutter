@@ -36,7 +36,7 @@ Navigator.push(
     builder: (_) => ChatKitWidget(
       config: ChatKitConfig(
         apiKey: 'ck_live_YOUR_KEY',
-        baseUrl: 'https://chatkit-backend-bihw.onrender.com',
+        baseUrl: 'YOUR_BACKEND_URL',
       ),
       showBackButton: true,
     ),
@@ -58,7 +58,7 @@ showModalBottomSheet(
       child: ChatKitWidget(
         config: ChatKitConfig(
           apiKey: 'ck_live_YOUR_KEY',
-          baseUrl: 'https://chatkit-backend-bihw.onrender.com',
+          baseUrl: 'YOUR_BACKEND_URL',
         ),
         showBackButton: true,
         onClose: () => Navigator.pop(context),
@@ -77,7 +77,7 @@ Stack(
     ChatKitFAB(
       config: ChatKitConfig(
         apiKey: 'ck_live_YOUR_KEY',
-        baseUrl: 'https://chatkit-backend-bihw.onrender.com',
+        baseUrl: 'YOUR_BACKEND_URL',
       ),
     ),
   ],
@@ -94,7 +94,7 @@ Everything is customizable. Defaults work out of the box.
 ChatKitWidget(
   config: ChatKitConfig(
     apiKey: 'ck_live_YOUR_KEY',
-    baseUrl: 'https://chatkit-backend-bihw.onrender.com',
+    baseUrl: 'YOUR_BACKEND_URL',
   ),
   theme: ChatKitTheme(
     primaryColor: Color(0xFF1E3A5F),
